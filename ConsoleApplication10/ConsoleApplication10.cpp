@@ -5,7 +5,7 @@ int main(void)
 {
 	int n, m;
 	cout << "いくつまでの素数を表示しますか" << endl;
-	m = 10000000;
+	cin >> m;
 	cout << '2' << endl;
 	for (int i = 3; i <= m; i+=2) {
 		n = 0;
