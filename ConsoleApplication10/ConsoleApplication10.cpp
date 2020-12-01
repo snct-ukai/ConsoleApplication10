@@ -10,10 +10,7 @@ int main(void)
 	for (int i = 3; i <= m; i+=2) {
 		n = 0;
 		for (int j = 3; j <= sqrt(i); j+=2) {
-			if (j % 3 == 0 && j > 3) {
-				continue;
-			}
-			else if (i % j == 0) {
+			if (i % j == 0) {
 				n++;
 				break;
 			}
