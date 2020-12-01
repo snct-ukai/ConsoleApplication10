@@ -21,8 +21,6 @@ int main(void)
 		if (n) {
 			continue;
 		}
-		else {
-			cout << i << endl;
-		}
+		cout << i << endl;
 	}
 }
